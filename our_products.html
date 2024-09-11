@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: azure;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            font-size: 50px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar a:hover {
+            color: blue;
+        }
+
+        .content-section {
+            display: none;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .content-section:target {
+            display: block;
+        }
+
+        .box-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        .box {
+            background-color: white;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .box img {
+            width: 100%;
+            height: auto;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+
+        table tr td {
+            padding: 10px;
+            text-align: center;
+            color: blue;
+            font-size: 20px;
+        }
+
+        footer {
+                 margin-top: 15px;
+                text-align: center; 
+            }
+
+           
+            .foot-panel2{
+                padding-top: 50px;
+                background-color:#183883;
+                 height:300px;
+                justify-content: space-evenly;
+                display: flex;
+                color: white;
+            }
+            ul a{
+                display: block;
+                font-size: 0.85 rem;
+                margin-top: 10px;
+            }
+            ul p{
+                font-weight: 700;
+            }
+            
+    </style>
+</head>
+<body>
+    <div>
+        <h1><center style="font-size: 50px;">Vehicle</center></h1>
+    </div>
+    <div class="navbar">
+        <nav>
+            <a href="#ScootySection">Scooty</a>
+            <a href="#MotorsSection">Motors</a>
+            <a href="#Mopeds">Mopeds</a>
+            <a href="#Electric">Electric</a>
+        </nav>
+    </div>
+
+    <div class="content-section" id="ScootySection">
+        <div class="box-container">
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/TVS-NTORQ-XT.webp" alt="TVS NTORQ 125">
+                <h3>TVS NTORQ 125</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/TVS-Jupiter-125.webp" alt="TVS Jupiter 125">
+                <h3>TVS Jupiter 125</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Scooter/Tvs-Jupiter/SXC-Disc---Dawn-Blue-Matte/WebP/Jupiter-125RRecce9717.webp" alt="TVS Jupiter">
+                <h3>TVS Jupiter</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section" id="MotorsSection">
+        <div class="box-container">
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/bookonlinemain.webp" alt="TVS APACHE RTR 310">
+                <h3>TVS APACHE RTR 310</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/apache-rr310-right.webp" alt="TVS APACHE RR 310">
+                <h3>TVS APACHE RR 310</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/ronin_banner_new/book-online-td-se.webp" alt="TVS Ronin">
+                <h3>TVS Ronin</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section" id="Mopeds">
+        <div class="box-container">
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/Win-Beaver-brown.webp" alt="TVS XL 100">
+                <h3>TVS XL 100</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-section" id="Electric">
+        <div class="box-container">
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/Feature/Hero-Banner/TVSX-EntryPoints/iQube/550-x-330.png" alt="TVS iQube">
+                <h3>TVS iQuebe</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+            <div class="box">
+                <img src="https://www.tvsmotor.com/-/media/Feature/Hero-Banner/TVSX-EntryPoints/TVSX/TVSX-550x330.png" alt="TVS X">
+                <h3>TVS X</h3>
+                <h2><a href="register.html">Shop now</a></h2>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="foot-panel2">
+        <div>
+            <img src="https://download.logo.wine/logo/TVS_Motor_Company/TVS_Motor_Company-Logo.wine.png" width="163px" height="150px">
+        </div>
+        <ul>
+           <p>Motorcycles</p>
+           <a>TVS Apache</a>
+           <a>RTR 310</a>
+           <a>RR 310</a>
+           <a>RTR 200 4V</a>
+           <a>RTR 180</a>
+           <a>RTR 160 4V</a>
+           <a>RTR 160</a>
+        </ul>
+        <ul>
+            <p>Scooters</p>
+            <a>Jupiter 110</a>
+            <a>Jupiter 125</a>
+            <a>Ntorq</a>
+            <a>Zest 110</a>
+            <a>Scooty Pep+</a>
+         </ul>
+         <ul>
+            <p>Three Wheelers</p>
+            <a>King Deluxe</a>
+            <a>King Duramax</a>
+            <a>King Duramax Plus</a>
+            <a>King Kargo</a>
+         </ul>
+         <ul>
+            <h1>Submitted by</h1>
+            <p>221FA18104 - M. Jahnavi Durga</p>
+            <p>221FA18128 - P.V.Sai Ravish</p>
+            <p>221FA18144 - J. Gopi</p>
+            <p>221FA18178 - B. Keerthisree</p>
+         </ul>
+    </div>
+</footer>
+</html>

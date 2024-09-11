@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4aa1ca;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .image-container, .form-container {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 500px;
+            box-sizing: border-box;
+        }
+
+        .form-container h2 {
+            color: #333;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .form-group input[type="text"], .form-group textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #ddd;
+            font-size: 16px;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-top: 5px;
+            outline: none;
+        }
+
+        .form-group input[type="text"]:focus, .form-group textarea:focus {
+            border-bottom: 2px solid #4aa1ca;
+        }
+
+        .form-group input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        .form-group input[type="submit"], .form-group input[type="reset"] {
+            background-color: rgb(159, 21, 21);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 15px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 48%;
+            margin-top: 10px;
+        }
+
+        .form-group input[type="submit"]:hover, .form-group input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+
+        .form-group .button-group {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-group .button-group input {
+            flex: 1;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://www.tvsmotor.com/-/media/BookARideOptimized/Book%20a%20ride/TVS%20BAU%20-%20website%20banner1_883%20x%20628.webp" alt="Booking Banner">
+        </div>
+        <div class="form-container">
+            <h2>Booking Form</h2>
+            <form>
+                <div class="form-group">
+                    
+                    <input type="text" id="name" name="name" placeholder="Enter your Name" />
+                </div>
+                
+                <div class="form-group">
+                    <input type="text" id="phone" name="phone" placeholder="Phone" />
+                    
+                </div>
+                
+                <div class="form-group">
+                    
+                    <input type="text" id="vehicle" name="vehicle" placeholder="Enter vehicle name" />
+                </div>
+                
+                <div class="form-group">
+                    
+                    <input type="text" id="email" name="email" placeholder="Enter your email" />
+                </div>
+                
+                <div class="form-group">
+                    
+                    <textarea id="address" name="address" rows="4" placeholder="Enter your address"></textarea>
+                </div>
+                
+                <div class="form-group button-group">
+                    <input type="reset" value="Reset" />
+                    <input type="submit" value="Submit" />
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

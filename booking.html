@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        .nav img {
+            width: 100%;
+            height: 500px;
+        }
+
+        .b {
+            text-align: center;
+            background-color: white;
+            overflow-x: scroll;
+            white-space: nowrap;
+        }
+
+        button {
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 16px;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        button:hover {
+            background-color: #aec0ea;
+        }
+
+        .navbar {
+            font-size: 50px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar a:hover {
+            color: red;
+        }
+
+        .content-section {
+            display: none;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .content-section:target {
+            display: block;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+
+        table tr td {
+            padding: 10px;
+            text-align: center;
+            color: blue;
+            font-size: 20px;
+        }
+        footer {
+                 margin-top: 15px;
+                text-align: center; 
+            }
+
+           
+            .foot-panel2{
+                padding-top: 50px;
+                background-color:#183883;
+                 height:300px;
+                justify-content: space-evenly;
+                display: flex;
+                color: white;
+            }
+            ul a{
+                display: block;
+                font-size: 0.85 rem;
+                margin-top: 10px;
+            }
+            ul p{
+                font-weight: 700;
+            }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img src="https://www.tvsmotor.com/-/media/BookOnline-V2/banner-images/26-Apr-23/Online-Booking-Banners-01.jpg" alt="Booking Image">
+    </div>
+
+    <div class="b">
+        <nav>
+            <a href="#BookVehicleSection"><button id="BookVehicle">Book Vehicle</button></a>
+            <a href="Booking_form.html"><button id="BookingStatus">Booking</button></a>
+        </nav>
+    </div>
+
+    <div id="BookVehicleSection">
+        <div>
+            <center><h1 style="font-size: 50px;">Select a Vehicle</h1></center>
+        </div>
+    
+        <div class="navbar">
+            <nav>
+                <a href="#ScootySection">Scooty</a>
+                <a href="#MotorsSection">Motors</a>
+            </nav>
+        </div>
+    
+        <div class="content-section" id="BookVehicleSection">
+            <h2>Book a Vehicle</h2>
+        </div>
+    
+        <div class="content-section" id="ScootySection">
+            <table>
+                <tr>
+                    <td><img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/TVS-NTORQ-XT.webp" width="200px" height="200px"></td>
+                    <td><img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/TVS-Jupiter-125.webp" width="200px" height="200px"></td>
+                    <td><img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Scooter/Tvs-Jupiter/SXC-Disc---Dawn-Blue-Matte/WebP/Jupiter-125RRecce9717.webp" width="200px" height="200px"></td>
+                </tr>
+                <tr>
+                    <td>TVS NTORQ 125</td>
+                    <td>TVS Jupiter 125</td>
+                    <td>TVS Jupiter</td>
+                </tr>
+            </table>
+        </div>
+    
+        <div class="content-section" id="MotorsSection">
+            <table>
+                <tr>
+                    <td><img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/bookonlinemain.webp" width="200px" height="200px"></td>
+                    <td><img src="https://www.tvsmotor.com/-/media/BookOnline-V2/Bookonlinewebp/apache-rr310-right.webp" width="200px" height="200px"></td>
+                    <td><img src="https://www.tvsmotor.com/-/media/ronin_banner_new/book-online-td-se.webp" width="200px" height="200px"></td>
+                </tr>
+                <tr>
+                    <td>TVS APACHE RTR 310</td>
+                    <td>TVS APACHE RR 310</td>
+                    <td>TVS Ronin</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="foot-panel2">
+        <div>
+            <img src="https://download.logo.wine/logo/TVS_Motor_Company/TVS_Motor_Company-Logo.wine.png" width="163px" height="150px">
+        </div>
+        <ul>
+           <p>Company</p>
+           <a>About us</a>
+           <a>Careers</a>
+           <a>Investors</a>
+           <a>Media</a>
+        </ul>
+        <ul>
+            <p>Shop</p>
+            <a>Accessories</a>
+            <a>Bog</a>
+            <a>Dealers</a>
+            <a>Shop by model</a>
+         </ul>
+         <ul>
+            <p>Get In Touch For Consumer Complaints</p>
+            <a>1800-258-7555 (Toll Free)</a>
+            <a>+91 7418199936</a>
+            <a>acc.onlinesupport@tvsmotor.com</a>
+         </ul>
+         <ul>
+            <h1>Submitted by</h1>
+            <p>221FA18104 - M. Jahnavi Durga</p>
+            <p>221FA18128 - P.V.Sai Ravish</p>
+            <p>221FA18144 - J. Gopi</p>
+            <p>221FA18178 - B. Keerthisree</p>
+         </ul>
+    </div>
+    </footer>
+</html>
